@@ -1,0 +1,174 @@
+/* this is the style document for basic portfolio project, 2019-11-18 */
+
+a:link {
+  color:#777777;
+  text-decoration:underline;
+}
+a:hover {
+  color:yellow;
+  background-color:green;
+  font-weight:bold;
+}
+a:visited {
+  color:#99a1c1;
+  text-decoration:underline;
+}
+html, body { /* this sets the height of the page to the height of the viewport */
+  height: 100%;
+}
+body {
+  padding:0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.content {
+  flex: 1 0 auto;
+  /*style="background-image: url('../images/bk_LightGrayPaper.gif');*/ /*THIS DOES NOT WORK HERE -- PORBABLY A PATH ISSUE*/
+  width:100%;       
+  height:50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0;
+  padding:0;
+  height:50%;
+  vertical-align:bottom;
+}
+
+article.mainArticle { 
+  background-color:#ffffff;
+  width:60%;
+  height:80%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50pt;
+  overflow:scroll;
+  border:2px solid black;
+}
+
+h1.arH1 {
+  color:#3399cc;
+  margin-left:5%;
+  font-weight:bold;
+  font-size:32pt;
+  font-family:serif;
+}
+
+img.portrait {
+ padding:0;
+ float:left; 
+ margin-right:20pt;
+ margin-left:20pt;
+}
+
+
+header.pgheader {
+  margin-top:12pt;
+  height:50px;
+}
+
+div.navlink {
+  float:right;
+  color:black;
+  font-size: 12pt;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align:left;
+  width:30%;
+  padding:0;
+  vertical-align:middle;
+  text-align:center;
+  margin-top:20pt;
+  margin-right:140pt;
+}
+
+div.pgheader  {
+  background-color:#3399CC;
+  color:white;
+  font-weight:bold;
+  font-size: 24pt;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  height:60px;
+  width:28%;
+  padding:5pt;
+  vertical-align:middle;
+  text-align:left;
+  margin-left:21%;
+  float:left;
+}
+
+div.divline1 { 
+  border:2px solid #99a1c1;
+  margin-bottom:20pt;
+}
+
+p.arbody {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14pt;
+  color:#777777;
+  margin-left:12pt;
+  margin-right:12pt;
+  margin-bottom:12pt;
+}
+
+p.footerp {
+  vertical-align:bottom;
+  margin-top:4%;
+  padding:0;
+}
+.footer {
+  COLOR:#3399cc;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  vertical-align:bottom;
+  background-color:#666666;
+  flex-shrink: 0;
+  width:100%;           /*865px;*/
+  margin-left:auto;
+  margin-right: auto;
+  padding:0;
+  height:75px;
+  border-top:8px solid #4aaaa5;
+}
+
+button:hover {
+  background-color:green;
+  color: white;
+}
+
+.button {
+  color:black;
+  padding:7px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border:2px solid #3399cc;
+}
+
+table.pftable {
+  border-collapse:collapse;
+  border-spacing:12pt;
+  width:95%;
+  margin-left:auto;margin-right:auto;
+}
+
+td.pftablecell {
+  /*border: 1px solid blue;*/
+  text-align:center;
+  width:130px;
+  height:130px;
+  padding:12pt;
+  vertical-align:bottom;
+}
+
+div.pftablelabel {
+  background-color:#3399cc;
+  padding-top: 6pt;
+  padding-bottom: 6pt;
+  margin-bottom:6pt;
+  margin-right:6pt;
+  font-family:serif;
+  font-weight:normal;
+  color:white;  
+}
