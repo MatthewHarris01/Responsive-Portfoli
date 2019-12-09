@@ -8,7 +8,10 @@
     <title>Matthew Harris - About Me</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-  </head>
+    <!--Followinf is linkg to Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
 
   <body>
     <!-- header -->
@@ -19,16 +22,18 @@
       </div>
 
       <!-- NAV LINKS -->
-      <div class="navlink">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <!-- <div class="navlink"> -->
 
         <a href="index.html" target="_self">About</a>&nbsp; | &nbsp;
         <a href="portfolio.html" target="_self">Portfolio</a>&nbsp; | &nbsp;
         <a href="contact.html" target="_self">Contact</a>
-      </div> <!-- end navlinks-->
+      </nav> <!-- end navlinks-->
 
     </header>
 
-    <div class="content"
+    <div id=main-contaioner  class="container"
      style="background-image: url('assets/images/bk_LightGrayPaper.gif');"> <!--BACKGROUND IMAGE DOES NOT WORK WHEN PLACED IN CSS FILE. PROBABLY A PATH ISSUE-->
 
 
@@ -41,7 +46,7 @@
 
 
         <!-- picture here-->
-        <img class="portrait" src="assets/images/2012_Matthew_portrait.jpg" alt="Portrait photo of Matthew Harris">
+        <img class="auth-image" style="float:left;margin-right:10pt;" src="assets/images/2012_Matthew_portrait.jpg" alt="Portrait photo of Matthew Harris">
         <p class="arbody">
           Except for a brief (3 year) stint as a performing and studio musician, I have spent my life designing
           and developing databases and business applications, writing how-to books, consulting, teaching, and training.
