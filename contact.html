@@ -1,72 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Matthew Harris - Contact Me</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Matthew Harris (new)</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-  <body>
-    <!-- header -->
-    <header class="pgheader">
+  <link rel="icon" href="MHfavicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/styleR.css">
+  
+    <!--Followinf is link to Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <header id="masthead">
       <!--NAME BOX IN HEADER-->
       <div class="pgheader">
-        Matthew S. Harris
-      </div>
-
-      <!-- NAV LINKS -->
-      <div class="navlink">
-
-        <a href="index.html" target="_self">About</a>&nbsp; | &nbsp;
-        <a href="portfolio.html" target="_self">Portfolio</a>&nbsp; | &nbsp;
-        <a href="contact.html" target="_self">Contact</a>
-      </div> <!-- end navlinks-->
-
-    </header>
-
-    <div class="content" style="background-image: url('assets/images/bk_LightGrayPaper.gif');">
-      <!--BACKGROUND IMAGE DOES NOT WORK WHEN PLACED IN CSS FILE, IT IS SOME KIND OF PATH ISSUE.-->
-
-
-      <!-- INNER CONTENT DIV-->
-      <article class=mainArticle style="overflow:hidden;">
-
-        <h1 class="arH1">Contact Matthew Harris</h1>
-        <div class=divline1></div> <!-- LINE UNDER HEADING AND ABOVE ARTICLE-->
-
-        <P class="arbody">
-          Your Name<br>
-          <input  style="width:100%;color:#99a1c1;" type="text" name="fname" value="John Smith">
-        </P>
+          Matthew S. Harris
+        </div>
   
-        <P class="arbody">
-          Your Email<br>
-          <input  style="width:100%;color:#99a1c1" type="text" name="fname" value="example@somewhere.com">
-        </P>
-  
-        <P class="arbody">
-          Your Message (1,120 characters max)<br>
-          <textarea style="margin-bottom:0pt;" rows="14" cols="100" maxlength="1120">
-            </textarea>
-        </P>
-        <button class="button" style="margin-left:20pt;margin-top:0pt;" type="button">Submit</button>
+    
+     
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-      </article> <!-- END INNER CONTENT-->
-      
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact Matthew S. Harris</h1>
 
-    </div> <!-- end content -->
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Joseph Dokes" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="somebody@anywhere.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message (1,120 characters, max)</label>
+            <textarea id="message" name="message" placeholder="Type your message here" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-    <!-- footer -->
-    <footer class="footer">
-      <p style="vertical-align:bottom;margin-top:4%;padding:0;">Copyright (&copy;) 2019 by Matthew S. Harris</p>
-    </footer> <!-- END FOOTER -->
+    </section>
 
+  </div>
 
-
-  </body>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2019 by Matthew S Harris
+    </div>
+  </footer>
+</body>
 
 </html>
