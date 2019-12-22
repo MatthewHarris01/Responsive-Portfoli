@@ -14,13 +14,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+      <style>
+      a:visited {color:black;}
+      </style>
   </head>
 
   <body>
 
     <header id="masthead">
       <!-- <div class="container"> -->
-      <div class="pgheader">
+      <div class="pgheader" style="min-width: 200px;">
         Matthew S. Harris
       </div>
       <nav>
@@ -35,7 +38,46 @@
         <!-- <section style="background-color:white;"> -->
         <h1>Portfolio</h1>
 
-        <div class="work">
+        <!-- show portfolio items in a 3x3 table-->
+        <table class="pftable">
+          <tr style="height:130px;width:50px;">
+            <td class="pftablecell" style="background-image: url('assets/images/Hurkle.jpg');background-repeat:no-repeat;background-size:contain;width:33%;">
+              <div class="pftablelabel"><a href="http://www.didjiman.com/business/jsdemo/hurkle.html">Find The Hurkle (JS Game)</a>
+              </div>
+            </td>
+            <td class="pftablecell" style="background-image: url('assets/images/tic-tac-toe.jpg');background-repeat:no-repeat;background-size:contain;">
+              <div class="pftablelabel"><a href="http://www.didjiman.com/business/jsdemo/Tic-Tac-Toe.html">Tic-Tac-Toe (JS Game)</a>
+              </div>
+              </div>            
+            </td>
+            <td class="pftablecell"  style="background-image: url('assets/images/nicomachus.jpg');background-repeat:no-repeat;background-size:contain;"> 
+              <div class="pftablelabel"><a href="http://www.didjiman.com/business/jsdemo/Nicomachus.html">Nicomachus (JS Game)</a
+                </div>                         
+            </td>
+          </tr>
+          <tr>
+            <td class="pftablecell"  style="background-image: url('assets/images/rps.png');background-repeat:no-repeat;background-size:contain;">
+              <div class="pftablelabel"><a  href="https://matthewharris01.github.io/Rock-Paper-Scissors/">Rock, Paper, Scissors (JS Game)</a>
+              </div>            
+
+            </td>
+            <td class="pftablecell"  style="background-image: url('assets/images/crystal hunter.jpg');background-repeat:no-repeat;background-size:contain;">
+              <div class="pftablelabel"><a href="https://matthewharris01.github.io/unit-4-game/">Crystal Gatherer Game (JS Game)</a></a></div>
+              </div>            
+            </td>
+            <!-- <td class="pftablecell"  style="background-image: url('assets/images/biz2.jpg');background-repeat:no-repeat;background-size:contain;">
+              <div class="pftablelabel">MS Word Authoring Add-Ins (VBA)
+              </div>            
+
+            </td> -->
+          </tr>
+        </table>
+
+
+
+
+          <!-- following replaced by table -->
+        <!-- <div class="work">
           <img src="assets/images/Hurkle.jpg" alt="Hurkle (JS game)">
 
           <h3><a href="http://www.didjiman.com/business/jsdemo/hurkle.html" target="_blank">Hurkle (JS Game)</a></h3>
@@ -49,7 +91,7 @@
             <img src="assets/images/rps.png" alt="Rock Paper Scissors">
   
             <h3><a href="https://matthewharris01.github.io/Rock-Paper-Scissors/" target = _blank">Rock Paper Scissors (JS Game)</a></h3>
-          </div>
+          </div> -->
 
           <!-- NOTE: PUTTING MORE THAN 3 "WORK" DIS IN THE <SECTION> TAG CUASED THE additional "work" divs to overFlow the <section> tag and over-write the footer-->
           <!-- <div class="work">
@@ -69,7 +111,7 @@
 
     <footer>
       <div class="container">
-        Copyright &copy;
+        Copyright &copy 2019 by Matthew Harris
       </div>
     </footer>
   </body>

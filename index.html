@@ -1,70 +1,85 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Matthew S Harris -- About Me</title>
-  <link rel="icon" href="MHfavicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/styleR.css">
-  
-    <!--Followinf is link to Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matthew Harris - About Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" href="MHfavicon.ico" type="image/x-icon">
+  </head>
 
-<body>
-
-  <header id="masthead">
-    <div class="container">
-      <div class="pgheader"> <!--WHEN PAGE WIDTH IS SHRUNK, THE BACKGROUND COLOR DIV SHRINKS MORE THAN THE TEXT-->
-      Matthew Harris
+  <body>
+    <!-- header -->
+    <header class="pgheader">
+      <!--NAME BOX IN HEADER-->
+      <div class="pgheader" style="minwidth:200px;">
+        Matthew S. Harris
       </div>
-      <nav style="float:right;">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+      <!-- NAV LINKS -->
+      <div class="navlink">
 
-      <img src="assets/images/2012_Matthew_portrait.jpg" class="auth-image" alt="Matthew Harris" style="float:left;margin:0pt 15pt 0pt 10pt;">
+        <a href="index.html" target="_self">About</a>&nbsp; | &nbsp;
+        <a href="portfolio.html" target="_self">Portfolio</a>&nbsp; | &nbsp;
+        <a href="contact.html" target="_self">Contact</a>
+      </div> <!-- end navlinks-->
 
-      <p> Except for a 3 year stint as a performing & studio musician, I have spent my life designing
-          and developing databases and business applications, writing how-to books, consulting, teaching, and training.</p>
-      <p>I've worked in a variety of industries with a variety of companies and organizations &mdash; large & small, public & private, 
-         non-profit & academic institutions. I’ve gained a large base of knowledge as a consequence of this wide experience, which enables me to successfully serve many types of client.
-      </p>
-      <p>
-          I have designed and built applications ranging from relatively simple
+    </header>
+
+    <div class="content"
+     style="background-image: url('assets/images/bk_LightGrayPaper.gif');"> <!--BACKGROUND IMAGE DOES NOT WORK WHEN PLACED IN CSS FILE. PROBABLY A PATH ISSUE-->
+
+
+      <!-- INNER CONTENT DIV-->
+      <article class=mainArticle>
+
+        <h1 class= "arH1">About Me</h1>
+        <div class=divline1></div> <!-- LINE UNDER HEADING AND ABOVE ARTICLE-->
+
+
+
+        <!-- picture here-->
+        <img class="portrait" src="assets/images/2012_Matthew_portrait.jpg" alt="Portrait photo of Matthew Harris">
+        <p class="arbody">
+          Except for a brief (3 year) stint as a performing and studio musician, I have spent my life designing
+          and developing databases and business applications, writing how-to books, consulting, teaching, and training.
+        </p>
+        <p class="arbody">
+          I've had the good fortune to work in a variety of industries with a variety of companies and organizations –
+          large & small, public & private, non-profit and academic institutions. I’ve gained a large base of knowledge
+          as a
+          consequence of this wide experience, which enables me to successfully serve many types of client.
+        </p>
+        <p class="arbody">
+          I take tremendous satisfaction from knowing that the applications I develop make people's lives easier
+          and meet their unique needs. I have designed and built applications ranging from relatively simple
           estimators/calculators to complete systems that handle core tasks: customer service, contacts/sales,
           inventory, process tracking, project tracking, scheduling, donor management, clinical drug trials, and many
           more. I have written applications for commercial distribution as well as for my clients' in-house use.
-      </p>
-      <p>
+        </p>
+        <p class="arbody">
+          I strive to create reliable, easily maintained and well-documented applications – it's a good feeling to
+          deliver a reliable tool to the people who need it.
+        </p>
+        <p class="arbody">
           I am also a skilled technical writer. I am sole author, co-author, or a contributing author of over 20
           technical how-to books, most of which teach database programming in Visual Basic and MS Access VBA (Visual Basic for Applications), and VBA programming in MS Excel.
-      </p>
-      <p>
-          You can see more information about me, my skills, and my past projects at <a href="http://www.didjiman.com/business" target="blank">My Interactive Business Card</a>.</stro
-      </p>
+        </p>
+        <p class="arbody"><strong> You can see more information about me, my skills, and my past projects at <a
+              href="http://www.didjiman.com/business" target="blank">My Interactive Business Card</a>.</strong></p>
+      </article> <!-- END INNER CONTENT-->
 
 
+    </div> <!-- end content -->
 
+    <!-- footer -->
+    <footer class="footer">
+      <p class="footerp">Copyright (&copy;) 2019 by Matthew S. Harris</p>
+    </footer> <!-- END FOOTER -->
+    
 
-    </section>
-
-  </div>
-
-  <footer style=>
-    <div class="container">
-      Copyright &copy; 2010 by Matthew S Harris
-    </div>
-  </footer>
-</body>
+  </body>
 
 </html>
