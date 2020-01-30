@@ -7,3 +7,4 @@ Version 1.1 -- Portfolio page modified to use a table to display portfolio items
 Version 2.0 -- majority of repsonsiveness issues resolved, especially for index.html and portfolio.htm.
 Version 2.1 -- GIF Search app added to portfolio.html page.
 last update 1/13 12:11 pm
+Version 2.2 -- "rendez-vous (Date Night Planner)" team project app added.
