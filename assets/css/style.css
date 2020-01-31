@@ -176,3 +176,16 @@ div.pftablelabel {
   font-weight:normal;
   color:white;  
 }
+
+a:link {
+  color:black;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+a:visited {
+  color:darkgray;
+  font-weight:normal;
+  }
+
+  
