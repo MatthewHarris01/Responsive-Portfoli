@@ -3,22 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact Matthew Harris (new)</title>
+  <title>Contact Matthew Harris</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
   <link rel="icon" href="MHfavicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/styleR.css">
-  
-    <!--Followinf is link to Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-</head>
+  
+    <!--Following is link to Bootstrap -->
+    <!-- bootstrap link 4.4.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- local CSS link-->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styleR.css">
+  </head>
 
 <body>
 
-  <header id="masthead">
+  <header id="masthead" style="background-image:url('assets/images/bk_LightGrayPaper.gif');">
       <!--NAME BOX IN HEADER-->
       <div class="pgheader" style="min-width:200px;">
           Matthew S. Harris
@@ -35,25 +38,34 @@
   </header>
 
   <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact Matthew S. Harris</h1>
+    <section class="main-section" style="background-image:url('assets/images/bk_LtGrayBluePaper.gif');">
+      <h1 class= "arH1"><b></b>Contact Matthew S. Harris</h1>
+      <p style="color:black;"><strong><a href="https://www.linkedin.com/in/matthew-s-harris/" target="_blank">Visit me on LinkedIn</a> or
+        <a href="https://github.com/MatthewHarris01" target = "_blank"><b>GitHub</b></a>!</strong></p>
+      <p style="color:black">You may email me directly at <a href="mailto:matthewsharris01@gmail.com">matthewsharris01@gmail.com</a>, or reach me by telephone at 
+        <b>(925)-378-7814</b>.</p>
+      <p style="color:black;">You may also wish to <a href="http://www.didjiman.com/business/Matthew_S_Harris_resume.pdf" target="_blank">download my resume in pdf format</a></p>
+      <p style="color:black;">Got to the <a href ="portfolio.html">Portfolio</a> page to see a table of completed projects and links to view each deployed project.</a>
+    
+    </p>
+      
 
       <form id="contact-form">
         <ul>
           <li>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Joseph Dokes" required="required">
+            <input type="text" id="name" name="name" placeholder="Joseph Dokes" required="required" disabled>
           </li>
           <li>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="somebody@anywhere.com" required="required">
+            <input type="email" id="email" name="email" placeholder="somebody@anywhere.com" required="required" disabled>
           </li>
           <li>
             <label for="message">Message (1,120 characters, max)</label>
-            <textarea id="message" name="message" placeholder="Type your message here" required="required"></textarea>
+            <textarea id="message" name="message" placeholder="Type your message here" required="required" disabled></textarea>
           </li>
         </ul>
-        <input type="submit">
+        <button type="button" class="btn btn-lg btn-primary" disabled>Submit</button>
       </form>
 
     </section>
@@ -61,8 +73,8 @@
   </div>
 
   <footer>
-    <div class="container">
-      Copyright &copy; 2019 by Matthew S Harris
+    <div>
+      Copyright &copy; 2019-2020 by Matthew S Harris
     </div>
   </footer>
 </body>

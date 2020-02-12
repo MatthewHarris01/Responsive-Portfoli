@@ -9,10 +9,11 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/concrete_seamless.png"); 
   padding:0;
   margin: 0;
   display: flex; /* needed as part of sticky footer */
+  flex-direction: column;
 
 }
 
@@ -27,6 +28,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  flex: 1 0 auto;
 }
 
 h1,
@@ -110,12 +112,12 @@ nav a:first-child {
 
 footer {
 	/* followins hourl produce sticky footer, the flex-shrink property in particular. */
+  flex-shrink: 0;
   COLOR:#3399cc;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   vertical-align:bottom;
   background-color:#666666;
-  flex-shrink: 0;
   width:100%;          
   margin-left:auto;
   margin-right: auto;
@@ -123,7 +125,7 @@ footer {
   height:75px;
   border-top:8px solid #4aaaa5;
 	
-/* folowign does not seem to work with sticky footer 
+/* folowing does not seem to work with sticky footer 
   padding: 30px 0;
   clear: both;
   font-size: 12px;
@@ -151,6 +153,7 @@ h3, h2 {
 }
 
 .main-section {
+  background: url('../images/bk_LtGrayBluePaperx.gif'); 
   float: left;
   width: 100%;
   max-width: 960px;
@@ -176,7 +179,6 @@ h3, h2 {
 
 .work img {
   width: 100%;
-  border: 0 none;
   opacity: 0.8;
 }
 

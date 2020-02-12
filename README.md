@@ -8,3 +8,8 @@ Version 2.0 -- majority of repsonsiveness issues resolved, especially for index.
 Version 2.1 -- GIF Search app added to portfolio.html page.
 last update 1/13 12:11 pm
 Version 2.2 -- "rendez-vous (Date Night Planner)" team project app added.
+last update 2/12 1:17 pm
+Version 3.0 -- resolved remaining issues with sticky footer for all pages. Tested responsive behavior for all pages, modified all pages as needed to improve responsiveness.
+About page: made cosmetic changes, in particular reduced the size of the portrait photo to improve the readabileiy of wrapped text.
+Contact page: Added links to LinkedIn and Git Hub, also added a link to a pdf version of my current resume on. Added a mailto: link to contact page, and my phone number. Added "disbled" attribute to all fields and buttons on the Contact form, since message sending code is not implemented at this time. 
+Portfolio page: re-made the table of projects and apps for better visual appeal. Changed styles to make links more easily readable, and to make visited links more readable. Added overflow scrolling to Portfolio page, since the list of demo apps is likely to exceed the height of the visible area in the future, and currently exceeds the visible height for many mobile devices.

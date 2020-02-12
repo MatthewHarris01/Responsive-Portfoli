@@ -3,18 +3,18 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Matthew S Harris - Portfolio</title>
+    <title>Matthew S Harris - Portfolio Projects</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <link rel="icon" href="MHfavicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!-- Style sheet for Harris styles-->
-    <link rel="stylesheet" type="text/css" href="assets/css/styleR.css"> <!-- Style Sheet for Responsive page -->
-
-
-
-    <!--Followinf is link to Bootstrap -->
+    
+    <!--Following is link to Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!-- Style sheet for Harris styles-->
+    <link rel="stylesheet" type="text/css" href="assets/css/styleR.css"> <!-- Style Sheet for Responsive page -->
 
 
 
@@ -24,8 +24,7 @@
 
   <body>
 
-    <header id="masthead">
-      <!-- <div class="container"> -->
+    <header id="masthead" style="background-image:url('assets/images/bk_LightGrayPaper.gif');">
       <div class="pgheader" style="min-width: 200px;">
         Matthew S. Harris
       </div>
@@ -37,71 +36,80 @@
     </header>
 
     <div id="main-container" class="container">
-      <section class="main-section" style="overflow:hidden">
+      <section class="main-section" style="overflow:scroll;background-image:url('assets/images/bk_LtGrayBluePaper.gif');">
         <!-- <section style="background-color:white;"> -->
-        <h1>Portfolio</h1>
+        <h1>Portfolio Demos</h1>
+          <table class="pftable">
+            <tr>
+              <!-- FIND THE HURKLE -->
+              <td class="pftablecell">
+                <img src="assets/images/Hurkle.jpg" alt="image of Find the Hurkle game" style="padding:0;margin:0;"><br>
+                <div class="pftablelabel"><a href="https://matthewharris01.github.io/find-the-hurkle/">Find the Hurkle (JS game)</a><br>
+                  <a href="https://github.com/MatthewHarris01/find-the-hurkle">[View Git Hub Repository]</a>
+                </div>
+              </td>
+              <!-- TIC-TAC-TOE-->
+              <td class="pftablecell">
+                <img src="assets/images/tic-tac-toe.jpg" alt="pic of Tic-Tac-Toe game" style="padding:0;margin:0;"><br>
+                <div class="pftablelabel"><a href="https://matthewharris01.github.io/tic-tac-toe/">Tic-Tac-Toe (JS Game)</a><br>
+                  <a href="https://github.com/MatthewHarris01/tic-tac-toe">[View Git Hub Repository]</a>
+                </div>
+              </td>
+              <!--NICOMACHUS-->
+              <td class="pftablecell">
+                <img src="assets/images/nicomachus.jpg" alt="pic of Nicomachus game" style="padding:0;margin:0;">
+                <div class="pftablelabel"><a href="https://matthewharris01.github.io/Nichomachus/">Nicomachus (JS Game)</a><br>
+                  <a href="https://github.com/MatthewHarris01/Nichomachus">[View Git Hub Repository]</a>
+                
+                </div>
+              </td>
+              <!--ROCK PAPER SCISSORS-->
+              <td class="pftablecell">
+                <img src="assets/images/rps.png" alt="pic of Rock, Paper, Scissors game" style="padding:0;margin:0;">
+                <div class="pftablelabel"><a  href="https://matthewharris01.github.io/Rock-Paper-Scissors/">Rock, Paper, Scissors (JS/JQuery Game)</a><br>
+                  <a href="https://github.com/MatthewHarris01/Rock-Paper-Scissors">[View Git Hub Repository]</a>
+                
+                </div>
+              </td>
+            </tr>
+            <!-- NEW ROW-->
+            <tr>
+              <!--CRYSTAL GATHERER-->
+              <td class="pftablecell">
+                <img src="assets/images/crystal hunter.jpg" alt="pic of Crystal Gatherer Game" style="padding:0; margin:0">
+                <div class="pftablelabel"><a href="https://matthewharris01.github.io/unit-4-game/">Crystal Gatherer (JS/ JQuery Game)</a><br>
+                  <a href="https://github.com/MatthewHarris01/unit-4-game">[View Git Hub Repository]</a>
+                </div>
+              </td>
+              <!--SPACE EXPLORATION TRIVIA GAME-->
+              <td class="pftablecell">
+                <img src="assets/images/triviagame.jpg" alt="pic of Trivia Game" style="padding:0; margin:0">
+                <div class="pftablelabel"><a href="https://matthewharris01.github.io/TriviaGame/">Space Exploration Trivia Game (JS/JQuery Game)</a><br>
+                  <a href="https://github.com/MatthewHarris01/TriviaGame">[View Git Hub Repository]</a>
+                
+                </div>
+              </td>
+              <!--GIFTASTIC-->
+              <td class="pftablecell">
+                <img src="assets/images/giftastic.jpg" alt="pic of GIF search app." style="padding:0; margin:0">
+                <div class="pftablelabel"><a href="https://matthewharris01.github.io/giftastic/">GIF Search App (Jquery/ AJAX/JS application)</a><br>
+                  <a href="https://github.com/MatthewHarris01/giftastic">[View Git Hub Repository]</a>
+                
+                </div>
+              </td>
+              <!--RENDIEZ-VOUS DATE PLANNER PROJECT-->
+              <td class="pftablecell">
+                <img src="assets/images/rendez-vous app.jpg" alt="pic of Rendez-Vous app." style="padding:0; margin:0">
+                <div class="pftablelabel">
+                  <a href="https://plkgit.github.io/g2skywalker/">Rendez-vous (date night planner) (Jquery/JS/ AJAX application - Team Project)</a><br>
+                  <a href="https://github.com/PLKGIT/g2skywalker">[View Git Hub Repository]</a>
+                
+                </div>
+              </td>
 
-        <!-- show portfolio items in a 4x3 table-->
-        <table class="pftable">
-          <tr style="height:130px;width:50px;">
-            <td class="pftablecell" style="background-image: url('assets/images/Hurkle.jpg');background-repeat:no-repeat;background-size:contain;width:33%;">
-              <div class="pftablelabel"><a href="https://matthewharris01.github.io/find-the-hurkle/">Find The Hurkle (JS Game)</a>
-              </div>
-            </td>
-            <td class="pftablecell" style="background-image: url('assets/images/tic-tac-toe.jpg');background-repeat:no-repeat;background-size:contain;">
-              <div class="pftablelabel"><a href="https://matthewharris01.github.io/tic-tac-toe/">Tic-Tac-Toe (JS Game)</a>
-              </div>
-              </div>            
-            </td>
-            <td class="pftablecell"  style="background-image: url('assets/images/nicomachus.jpg');background-repeat:no-repeat;background-size:contain;"> 
-              <div class="pftablelabel"><a href="https://matthewharris01.github.io/Nichomachus/">Nicomachus (JS Game)</a>
-                </div>                         
-            </td>
-          </tr>
-          <tr>
-            <td class="pftablecell"  style="background-image: url('assets/images/rps.png');background-repeat:no-repeat;background-size:contain;">
-              <div class="pftablelabel"><a  href="https://matthewharris01.github.io/Rock-Paper-Scissors/">Rock, Paper, Scissors (JS Game)</a>
-              </div>            
-
-            </td>
-            <td class="pftablecell"  style="background-image: url('assets/images/crystal hunter.jpg');background-repeat:no-repeat;background-size:contain;">
-              <div class="pftablelabel"><a href="https://matthewharris01.github.io/unit-4-game/">Crystal Gatherer Game (JS Game)</a></a>
-            <td class="pftablecell"  style="background-image: url('assets/images/triviagame.jpg');background-repeat:no-repeat;background-size:contain;">
-              <div class="pftablelabel">
-                <a href="https://matthewharris01.github.io/TriviaGame/">Space Exploration Trivia Game (JS Game)</a>
-            </td>
-          <tr>
-            <td class="pftablecell"  style="background-image: url('assets/images/giftastic.jpg');background-repeat:no-repeat;background-size:contain;">
-              <div class="pftablelabel">
-                <a href="https://matthewharris01.github.io/giftastic/">GIF Search App (Jquery/JS application)</a>
-              </div>            
-
-              <td class="pftablecell"  style="background-image: url('assets/images/rendez-vous app.jpg');background-repeat:no-repeat;background-size:contain;">
-              <div class="pftablelabel">
-                <a href="https://plkgit.github.io/g2skywalker/">Rendez-vous (date night planner) (Jquery/JS application - Team Project)</a>
-              </div>            
-
-
-
-          </tr>
-            
-            
-            <!-- <td class="pftablecell"  style="background-image: url('assets/images/.jpg');background-repeat:no-repeat;background-size:contain;">
-              <div class="pftablelabel">MS Word Authoring Add-Ins (VBA)
-              </div>             -->
-
-            </td>
-
-            <!-- <td class="pftablecell"  style="background-image: url('assets/images/biz2.jpg');background-repeat:no-repeat;background-size:contain;">
-              <div class="pftablelabel">MS Word Authoring Add-Ins (VBA)
-              </div>            
-
-            </td> -->
-          </tr>
-        </table>
-        
+            </tr>
+          </table>
       </section>
-
     </div>
 
     <footer>
